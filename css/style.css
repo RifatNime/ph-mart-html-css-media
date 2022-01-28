@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -8,12 +8,13 @@
 
 html {
   scroll-behavior: smooth;
-  font-size: 62.5%; /*1rem 16px thake setake 10px ante soto code*/
+  font-size: 62.5%;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
 }
+
 h1,
 h3 {
   color: #606d5f;
@@ -31,6 +32,7 @@ a,
 button {
   color: #888888;
 }
+
 p {
   font-size: 1.8rem;
   line-height: 150%;
@@ -46,8 +48,10 @@ a {
 li {
   list-style: none;
 }
+
 button {
   padding: 1rem 3rem;
+
   border: none;
   border-radius: 2rem;
   outline: none;
@@ -58,8 +62,8 @@ button {
   font-weight: normal;
   font-size: 2rem;
 }
-/* -----------------------------------
-Header Section --------------------- */
+
+/* ----------Header Section---------- */
 header {
   padding: 0 20rem;/*200px*/
   width: 100%;
@@ -68,12 +72,12 @@ header {
 header nav {
   display: flex;
   justify-content: space-between;
-  height: 12rem;/*120px*/
+  height: 12rem;
   align-items: center;
 }
 
 header nav .logo h1 {
-  font-size: 3rem;/*1rem-16px 3*16-48px*/
+  font-size: 3rem;
 }
 
 header nav .menu {
@@ -92,10 +96,9 @@ header nav .menu a li {
 
 header nav .menu a li:hover {
   color: #4b709e;
-  border: 0 0 2px 0 solid #4b709e;
 }
-/* -------------------------------
-Hero Section -------------------- */
+
+/* ----------Hero Section---------- */
 
 .hero-section {
   padding: 0 20rem;
@@ -106,7 +109,7 @@ Hero Section -------------------- */
   align-items: center;
   margin-bottom: 5rem;
 }
-/*-------------------------- Hero Left side */
+/* Hero Left side */
 .hero-section .hero-content {
   width: 50%;
   height: 80vh;
@@ -128,7 +131,7 @@ Hero Section -------------------- */
   width: 45rem;
   margin-bottom: 3rem;
 }
-/*--------------------------right section----------------*/
+/* right side */
 .hero-section .hero-img {
   width: 50%;
   display: flex;
@@ -139,8 +142,8 @@ Hero Section -------------------- */
 .hero-section .hero-img img {
   width: 100%;
 }
-/* --------------------------------------------
-Products Section---------------------------- */
+
+/* ---------Products Section--------- */
 .products-section {
   padding: 0 20rem;
   width: 100%;
@@ -190,8 +193,8 @@ Products Section---------------------------- */
   font-size: 1.5rem;
   margin-top: 1rem;
 }
-/* ---------------------------
-Footer Section---------------- */
+
+/* -----Footer Section---------- */
 footer {
   margin-top: 5rem;
   font-size: 1rem;
@@ -202,8 +205,6 @@ footer {
   background-color: #efefefef;
 }
 
-/*----------------------------------- Responsive for Laptop -------------------------------------------*/
-  
 /* Responsive for Laptop */
 @media (max-width: 1200px) {
   header,
